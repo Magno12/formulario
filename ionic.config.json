@@ -1,5 +1,7 @@
 {
   "name": "formulariocrud",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title (click)="closeModal()">Cadastro de contas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <form>
+    <ion-item>
+      <ion-label>Nome :</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>valor :</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Categoria :</ion-label>
+      <ion-select interface="popover">
+        <ion-select-option></ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Status :</ion-label>
+      <ion-select interface="popover">
+        <ion-select-option></ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-button>Salva</ion-button>
+
+  </form>
+
+
+</ion-content>
